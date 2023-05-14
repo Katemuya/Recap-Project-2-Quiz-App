@@ -1,14 +1,39 @@
-.header {
-  position: fixed;
-  z-index: 20;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 2rem 0;
-  background: var(--primary);
-  border-bottom: 1px solid var(--black);
+.content {
+  margin-top: 50%;
 }
 
-.header__title {
-  text-align: center;
+main {
+  margin: 20px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.textarea,
+.tag {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  margin-left: 100px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
